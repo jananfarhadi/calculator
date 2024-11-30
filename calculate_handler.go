@@ -47,6 +47,8 @@ func (n *Number) GetCalc(input string) string {
 			return "Cannot divide by zero"
 		}
 	case "5":
+		result = n.GetNum1() / 100
+	case "6":
 		return "Exit"
 	default:
 		return "Invalid operation"
